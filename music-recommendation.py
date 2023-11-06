@@ -19,10 +19,22 @@ defaults = {
 }
 input = '90's'
 input2 = 'someone that is just heart broken'
-prompt = f"""Recommend me some {input}songs that are perfect for {input2}"""
+prompt = f"""Recommend me some {input} songs that are perfect for {input2}"""
 
 response = palm.generate_text(
   **defaults,
   prompt=prompt
 )
 print(response.result)
+
+#ANSWER:
+#1. **Torn** by Natalie Imbruglia 
+#2. **All by Myself** by Celine Dion 
+#3. **I Will Survive** by Gloria Gaynor 
+#4. **Yesterday** by The Beatles 
+#5. **One Sweet Day** by Mariah Carey and Boyz II Men 
+#6. **Iris** by Goo Goo Dolls 
+#7. **Don't Speak** by No Doubt 
+#8. **My Heart Will Go On** by Celine Dion 
+#9. **Missing You** by John Waite 
+#10. **When You Say Nothing at All** by Alison Krauss 
