@@ -25,3 +25,10 @@ response = palm.generate_text(
   prompt=prompt
 )
 print(response.result)
+
+#ANSWER:
+#The sky is blue because of the way sunlight interacts with the Earth's atmosphere. 
+#Sunlight is made up of all colors of the rainbow, but when it passes through the atmosphere, 
+#the blue light is scattered more than the other colors. This is because blue light has a shorter wavelength than the other colors, 
+#and shorter wavelengths are more easily scattered by particles in the atmosphere. The other colors of light are not scattered as much, 
+#so they travel through the atmosphere to our eyes. This is why we see the sky as blue. 
