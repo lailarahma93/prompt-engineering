@@ -39,3 +39,12 @@ response = palm.generate_text(
   prompt=prompt
 )
 print(response.result)
+
+#ANSWER:
+#**Five Injured in Jakarta Office Building Fire** 
+ 
+#Five people were injured in a fire that broke out on the third floor of the Nusantara office building in Jakarta on November 4th. The fire, which is believed to have been caused by an electrical short circuit, started at around 10:00 a.m. and was extinguished by firefighters within an hour. 
+ 
+#The injured were taken to a nearby hospital for treatment. Their injuries are not believed to be life-threatening. 
+ 
+#The cause of the short circuit is still under investigation.
